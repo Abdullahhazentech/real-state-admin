@@ -41,10 +41,11 @@ const CustomPagination = ({ itemsPerPage,length, updateOffset }) => {
                 alignItems: "center",
               }}
             >
-              <img src="/pagination/ic_chevron-next.svg" />
+              
               <Typography sx={{ ...paginationStyles.nextText }}>
                 next
               </Typography>
+              <img src="/pagination/ic_chevron-next.svg" />
             </Box>
           }
           onPageChange={handlePageClick}
