@@ -5,7 +5,7 @@ import AnalyticsCard from "./AnalyticsCard";
 import { analyticsCardData } from "./analyticsCardData";
 import CustomPagination from "../../common/pagination/CustomPagination";
 const Analytics = () => {
-  const itemsPerPage=3;
+  const itemsPerPage=4;
   const [itemOffset, setItemOffset] = useState(0);
   const endOffset = itemOffset + itemsPerPage;
   console.log(`Loading items from ${itemOffset} to ${endOffset}`);

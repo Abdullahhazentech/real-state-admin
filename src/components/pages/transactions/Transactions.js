@@ -26,7 +26,7 @@ const Transactions = () => {
       ? "#09BD3C"
       : "#FF9F34";
   };
-  const itemsPerPage = 7;
+  const itemsPerPage = 6;
   const [itemOffset, setItemOffset] = useState(0);
 
   // Simulate fetching items from another resources.

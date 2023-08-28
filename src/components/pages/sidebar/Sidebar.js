@@ -1,4 +1,4 @@
-import { Paper, Box, Typography } from "@mui/material";
+import { Paper, Box, Typography, Badge } from "@mui/material";
 import "./sidebar.css";
 import { sidebarStyles } from "./sidebarStyles";
 import { Link } from "react-router-dom";
@@ -28,9 +28,12 @@ const Sidebar = () => {
             },
           }}
         >
-          <Box className={`options ${
+          <Box
+            className={`options ${
               activeTAB === "dashboard" && "activeTabStyles"
-            }`} sx={{ ...sidebarStyles.optionMargin }}>
+            }`}
+            sx={{ ...sidebarStyles.optionMargin }}
+          >
             <img className="optionIcon" src="../sidebar/dashboard.svg" alt="" />
             <Typography variant="h5" sx={{ ...sidebarStyles.optionText }}>
               Dashboard
@@ -48,9 +51,12 @@ const Sidebar = () => {
             },
           }}
         >
-          <Box className={`options ${
+          <Box
+            className={`options ${
               activeTAB === "property" && "activeTabStyles"
-            }`} sx={{ ...sidebarStyles.optionMargin }}>
+            }`}
+            sx={{ ...sidebarStyles.optionMargin }}
+          >
             <img className="optionIcon" src="../sidebar/property.svg" alt="" />
             <Typography variant="h5" sx={{ ...sidebarStyles.optionText }}>
               Property
@@ -68,9 +74,10 @@ const Sidebar = () => {
             },
           }}
         >
-          <Box className={`options ${
-              activeTAB === "Type" && "activeTabStyles"
-            }`} sx={{ ...sidebarStyles.optionMargin }}>
+          <Box
+            className={`options ${activeTAB === "Type" && "activeTabStyles"}`}
+            sx={{ ...sidebarStyles.optionMargin }}
+          >
             <img className="optionIcon" src="../sidebar/type.svg" alt="" />
             <Typography variant="h5" sx={{ ...sidebarStyles.optionText }}>
               Type
@@ -88,9 +95,12 @@ const Sidebar = () => {
             },
           }}
         >
-          <Box className={`options ${
+          <Box
+            className={`options ${
               activeTAB === "transactions" && "activeTabStyles"
-            }`} sx={{ ...sidebarStyles.optionMargin }}>
+            }`}
+            sx={{ ...sidebarStyles.optionMargin }}
+          >
             <img
               className="optionIcon"
               src="../sidebar/transactions.svg"
@@ -99,6 +109,13 @@ const Sidebar = () => {
             <Typography variant="h5" sx={{ ...sidebarStyles.optionText }}>
               Transactions
             </Typography>
+            <Badge
+              badgeContent={27}
+              sx={{
+                "& .MuiBadge-badge": sidebarStyles.calendarIconStyle,
+                marginLeft: "1rem",
+              }}
+            />
           </Box>
         </Link>
         <Link
@@ -112,9 +129,12 @@ const Sidebar = () => {
             },
           }}
         >
-          <Box className={`options ${
+          <Box
+            className={`options ${
               activeTAB === "analytics" && "activeTabStyles"
-            }`} sx={{ ...sidebarStyles.optionMargin }}>
+            }`}
+            sx={{ ...sidebarStyles.optionMargin }}
+          >
             <img className="optionIcon" src="../sidebar/analytics.svg" alt="" />
             <Typography variant="h5" sx={{ ...sidebarStyles.optionText }}>
               Analytics
@@ -164,13 +184,23 @@ const Sidebar = () => {
             },
           }}
         >
-          <Box className={`options ${
+          <Box
+            className={`options ${
               activeTAB === "messages" && "activeTabStyles"
-            }`} sx={{ ...sidebarStyles.optionMargin }}>
+            }`}
+            sx={{ ...sidebarStyles.optionMargin }}
+          >
             <img className="optionIcon" src="../sidebar/messages.svg" alt="" />
             <Typography variant="h5" sx={{ ...sidebarStyles.optionText }}>
               Messages
             </Typography>
+            <Badge
+              badgeContent={12}
+              sx={{
+                "& .MuiBadge-badge": sidebarStyles.notificstionBellStyle,
+                marginLeft: "1rem",
+              }}
+            />
           </Box>
         </Link>
         <Link
@@ -184,9 +214,12 @@ const Sidebar = () => {
             },
           }}
         >
-          <Box className={`options ${
+          <Box
+            className={`options ${
               activeTAB === "settings" && "activeTabStyles"
-            }`} sx={{ ...sidebarStyles.optionMargin }}>
+            }`}
+            sx={{ ...sidebarStyles.optionMargin }}
+          >
             <img className="optionIcon" src="../sidebar/settings.svg" alt="" />
             <Typography variant="h5" sx={{ ...sidebarStyles.optionText }}>
               Settings

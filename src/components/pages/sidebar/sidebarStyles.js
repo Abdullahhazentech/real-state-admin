@@ -49,4 +49,12 @@ export const sidebarStyles = {
     fontWeight: "400",
     lineHeight: "normal",
   },
+  notificstionBellStyle: {
+    backgroundColor: "#FF9F34",
+    color: "white",
+  },
+  calendarIconStyle: {
+    backgroundColor: "#09BD3C",
+    color: "white",
+  },
 };
