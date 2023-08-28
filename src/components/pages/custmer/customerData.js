@@ -1,0 +1,136 @@
+export const customerData = [
+    {
+      name: "Kaiya Curtis",
+      id: "#123125",
+      profilePicture: "../customer/profilePicture.svg",
+      location: "TY35 Avenue GG London Center",
+    },
+    {
+      name: "Jaydon Torff",
+      id: "#123125",
+      profilePicture: "../customer/profilePicture.svg",
+      location: "ABC12 Franklin Avenue Lon..",
+    },
+    {
+      name: "Mira Levin",
+      id: "#123125",
+      profilePicture: "../customer/profilePicture.svg",
+      location: "TY35 Avenue GG London Center",
+    },
+    {
+      name: "Livia Baptista",
+      id: "#123125",
+      profilePicture: "../customer/profilePicture.svg",
+      location: "TY35 Avenue GG London Center",
+    },
+    {
+      name: "Alfonso Calzoni",
+      id: "#123125",
+      profilePicture: "../customer/profilePicture.svg",
+      location: "TY35 Avenue GG London Center",
+    },
+    {
+      name: "Jaxson Vetrovs",
+      id: "#123125",
+      profilePicture: "../customer/profilePicture.svg",
+      location: "TY35 Avenue GG London Center",
+    },
+    {
+      name: "Jakob Donin",
+      id: "#123125",
+      profilePicture: "../customer/profilePicture.svg",
+      location: "TY35 Avenue GG London Center",
+    },
+    {
+      name: "Ryan Bergson",
+      id: "#123125",
+      profilePicture: "../customer/profilePicture.svg",
+      location: "TY35 Avenue GG London Center",
+    },
+    {
+      name: "Carla George",
+      id: "#123125",
+      profilePicture: "../customer/profilePicture.svg",
+      location: "TY35 Avenue GG London Center",
+    },
+    {
+      name: "Gretchen Calzoni",
+      id: "#123125",
+      profilePicture: "../customer/profilePicture.svg",
+      location: "TY35 Avenue GG London Center",
+    },
+    {
+      name: "Kaiya Curtis",
+      id: "#123125",
+      profilePicture: "../customer/profilePicture.svg",
+      location: "TY35 Avenue GG London Center",
+    },
+    {
+      name: "Jaydon Torff",
+      id: "#123125",
+      profilePicture: "../customer/profilePicture.svg",
+      location: "ABC12 Franklin Avenue Lon..",
+    },
+    {
+      name: "Mira Levin",
+      id: "#123125",
+      profilePicture: "../customer/profilePicture.svg",
+      location: "TY35 Avenue GG London Center",
+    },
+    {
+      name: "Livia Baptista",
+      id: "#123125",
+      profilePicture: "../customer/profilePicture.svg",
+      location: "TY35 Avenue GG London Center",
+    },
+    {
+      name: "Alfonso Calzoni",
+      id: "#123125",
+      profilePicture: "../customer/profilePicture.svg",
+      location: "TY35 Avenue GG London Center",
+    },
+    {
+      name: "Jaxson Vetrovs",
+      id: "#123125",
+      profilePicture: "../customer/profilePicture.svg",
+      location: "TY35 Avenue GG London Center",
+    },
+    {
+      name: "Jakob Donin",
+      id: "#123125",
+      profilePicture: "../customer/profilePicture.svg",
+      location: "ABC12 Franklin Avenue Lon..",
+    },
+    {
+      name: "Ryan Bergson",
+      id: "#123125",
+      profilePicture: "../customer/profilePicture.svg",
+      location: "TY35 Avenue GG London Center",
+    },
+    {
+      name: "Carla George",
+      id: "#123125",
+      profilePicture: "../customer/profilePicture.svg",
+      location: "TY35 Avenue GG London Center",
+    },
+    {
+      name: "Gretchen Calzoni",
+      id: "#123125",
+      profilePicture: "../customer/profilePicture.svg",
+      location: "ABC12 Franklin Avenue Lon..",
+    },
+    {
+      name: "Kaiya Curtis",
+      id: "#123125",
+      profilePicture: "../customer/profilePicture.svg",
+      location: "TY35 Avenue GG London Center",
+    },
+    {
+      name: "Kaiya Curtis",
+      id: "#123125",
+      profilePicture: "../customer/profilePicture.svg",
+      location: "TY35 Avenue GG London Center",
+    },
+    // Add more cards as needed
+  ];
+  

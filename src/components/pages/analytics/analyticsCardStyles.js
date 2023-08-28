@@ -1,0 +1,87 @@
+export const analyticsCardStyles = {
+  cardContainer: {
+    borderRadius: "20px",
+    background: "#FFF",
+    boxShadow: "0px 4px 6px 0px rgba(62, 73, 84, 0.04)",
+    display: "flex",
+    boxSizing: "border-box",
+    justifyContent: "space-between",
+    padding: "1rem",
+  },
+  box1: {
+    display: "flex",
+    justifyContent: "space-between",
+    width: "12rem",
+  },
+  box1Text1: {
+    color: "#2251F8",
+    fontSize: "0.675rem",
+    fontStyle: "normal",
+    fontWeight: 500,
+  },
+  box1Text2: {
+    color: "#171B1E",
+    fontSize: "0.875rem",
+    fontWeight: 700,
+  },
+  box1Text3: {
+    color: "#717579",
+    fontFamily: "Open Sans",
+    fontSize: "0.575rem",
+    fontWeight: 400,
+    marginTop: "0.5rem",
+  },
+  box2: {
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "space-between",
+    width: "39.7rem",
+  },
+  box2Text: {
+    color: "#171B1E",
+    fontSize: "0.875rem",
+    fontWeight: 500,
+  },
+  box3: {
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "space-between",
+    alignItems: "center",
+  },
+  box3Box: {
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "space-between",
+    width: "10rem",
+  },
+  box3RatingText: {
+    color: "#171B1E",
+    fontSize: "1.25rem",
+    fontWeight: 900,
+  },
+  box3ApproveButton: {
+    height: "2rem",
+    borderRadius: "22px",
+    background: "#09BD3C",
+  },
+  box3ArchieveButton:{
+    height: '2rem',
+    borderRadius: '22px',
+    border: '1px solid #96A0AF',
+    color: '#717579',
+    fontSize: '0.875rem',
+    fontWeight: 600,
+  },
+  pofilePicture: {
+    width: "3.25rem",
+    height: "3.25rem",
+  },
+  tagStyle: {
+    height: "1.75rem",
+    borderRadius: "20px",
+    border: "1px solid #FFDFDF",
+    color: "#216FED",
+    fontSize: "0.75rem",
+    fontWeight: 600,
+  },
+};

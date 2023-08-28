@@ -1,0 +1,59 @@
+.logo {
+    width: 10rem;
+    height: 3.5rem;
+}
+
+.sidebar {
+    width: 20%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding-left: 2rem;
+    padding-top: 1.5rem;
+    box-sizing: border-box;
+    border-radius: 2px;
+    background: #EEE;
+    /* Shadow 1 - Sidebar */
+    box-shadow: 7px 0px 80px 0px rgba(0, 0, 0, 0.05);
+}
+
+.mainMenu {
+    color: #717579;
+    /* H4 / Roboto / Bold */
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.options {
+    background: #FFF;
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 0;
+    margin-top: 1rem;
+
+    &:hover {
+        background-color: #00695E;
+        color: white;
+        width: 90%;
+        height: 80%;
+        border-radius: 0.875rem;
+        padding-left: 0.75rem;
+
+    }
+}
+
+.activeTabStyles {
+    background-color: #00695E;
+    color: white;
+    width: 90%;
+    height: 80%;
+    border-radius: 0.875rem;
+    padding-left: 0.75rem;
+}
+
+.optionIcon {
+    width: 1.3rem;
+    height: 1.4rem;
+}

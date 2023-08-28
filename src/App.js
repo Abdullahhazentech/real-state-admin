@@ -1,24 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { Grid, Stack } from "@mui/material";
+import Sidebar from "./components/pages/sidebar/Sidebar.js";
+import Header from "./components/pages/header/Header";
+import Customer from "./components/pages/custmer/Customer";
+import Transactions from "./components/pages/transactions/Transactions";
+import Analytics from "./components/pages/analytics/Analytics";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+    <Router>
+      <Grid className="appContainer">
+        <Sidebar />
+        <Grid
+          className="mainLayout"
+          sx={{ position: "relative", left: "20%" }}
+          direction="column"
         >
-          Learn React
-        </a>
-      </header>
-    </div>
+          <Header />
+          <Grid className="mainContent">
+            <Routes>
+              <Route exact path="/customer" element={<Customer />} />
+              <Route exact path="/transactions" element={<Transactions />} />
+              <Route exact path="/analytics" element={<Analytics />} />
+            </Routes>
+          </Grid>
+        </Grid>
+      </Grid>
+    </Router>
   );
 }
 

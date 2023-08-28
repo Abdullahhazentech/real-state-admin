@@ -1,0 +1,127 @@
+.tableBorder {
+    border-radius: 20px;
+    background: #FFF;
+    /* Shadow 2 - Card */
+    box-shadow: 0px 4px 6px 0px rgba(186, 187, 189, 0.04);
+    margin: 0rem 3.4rem;
+}
+
+td {
+    color: #171B1E;
+    /* H6 / Roboto / Medium */
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+#property {
+    width: 140px;
+}
+
+#location {
+    width: 180px;
+}
+
+
+.statusText {
+    color: #FFF;
+    /* H6 / Roboto / Medium */
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    /* padding: 0.5rem 0.5rem 0.5rem 1rem; */
+    border-radius: 20px;
+    text-align: center;
+}
+
+.test {
+    border: 2px solid black;
+    display: inline-block;
+    padding: 20px;
+}
+
+.bottomText {
+    color: #717579;
+    /* H6 / Roboto / Medium */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.previous {
+    width: 162px;
+    height: 53px;
+    border-radius: 20px;
+    border: 1px solid #3B4CB8;
+}
+
+.next {
+    width: 115px;
+    height: 53px;
+    border-radius: 20px;
+    border: 1px solid #3B4CB8;
+}
+
+.previousText {
+    color: #00695E;
+    /* H5 / Roboto / Medium */
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 0.5rem;
+}
+
+.nextText {
+    color: #00695E;
+    /* H5 / Roboto / Medium */
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-right: 0.5rem;
+}
+
+.listStyleNone, .previousStyle, .nextStyle {
+    list-style: none;
+}
+
+.listStyleNone {
+    border-top: 1px solid #00695E;
+    border-bottom: 1px solid #00695E;
+}
+
+.previousStyle {
+    margin-right: 20px;
+}
+
+.nextStyle {
+    margin-left: 20px;
+}
+
+ul.containerStyle>li:nth-child(2) {
+    border-left: 1px solid #00695E;
+}
+
+ul.containerStyle>li:nth-last-child(2) {
+    border-right: 1px solid #00695E;
+}
+
+.activeText {
+    border-radius: 22px;
+    background: #00695E;
+}
+
+.status {
+    height: 43px;
+    border-radius: 20px;
+    color: var(--white, #FFF);
+    /* H6 / Roboto / Medium */
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* .containerStyle > li:fir */

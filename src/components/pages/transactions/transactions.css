@@ -1,0 +1,72 @@
+#card1 {
+    width: 34rem;
+    height: 10rem;
+    border-radius: 20px;
+    background: #00695E;
+    /* Shadow 2 - Card */
+    box-shadow: 0px 4px 6px 0px rgba(62, 73, 84, 0.04);
+
+}
+
+#card1Text2 {
+    width: 445px;
+    color: #FFF;
+    /* H6 / Roboto / Medium */
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: start;
+}
+
+#card1Text1 {
+    color: #FFF;
+    /* H3 / Roboto / Bold */
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: start;
+}
+
+.card2Box, .card3Box {
+    width: 90px;
+    height: 90px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #EEE;
+}
+
+.card2Text1, .card3Text1 {
+    color: #171B1E;
+    /* H1 / Roboto / Black */
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-align: start;
+}
+
+.card2Text2, .card3Text2 {
+    color: #717579;
+    /* H5 / Roboto / Medium */
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: start;
+}
+
+.card2, .card3 {
+    width: 285px;
+    height: 164px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #FFF;
+    /* Shadow 2 - Card */
+    box-shadow: 0px 4px 6px 0px rgba(62, 73, 84, 0.04);
+
+}
